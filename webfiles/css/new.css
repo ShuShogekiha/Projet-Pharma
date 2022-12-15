@@ -1,0 +1,477 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #2a0cd1;
+    position: relative;
+}
+
+
+/* ---------------------------- underline ---------------------------- */
+
+a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #2a0cd1;
+    transform-origin: bottom right;
+    transition: transform 0.20s ease-out;
+    border-radius: 5px;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* header */
+
+header {
+    max-width: 100%;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 8px rgba(131, 131, 131, 0.7);
+    padding: 0.5rem 2rem;
+
+}
+
+#navbar {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 750px;
+    width: 100%;
+}
+
+#navbar div:first-child img {
+    border-radius: 50%;
+}
+
+#navbar div:first-child input {
+    flex-basis: 60%;
+    padding: 0.35rem 0.85rem;
+    border-radius: 5px;
+    border: solid 2px #d7d3d3;
+}
+
+#navbar nav {
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#navbar nav a:first-child {
+    margin-right: 35px;
+}
+
+#navbar img[alt='panier'] {
+    width: 35px;
+}
+
+#logo {
+    max-width: 65px;
+    margin: 0 1rem 0 0;
+}
+
+
+/* --------------------------- menu ------------------------- */
+
+#main-menu {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 1.5rem;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    position: sticky;
+    margin-top: 3rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#main-menu a {
+    flex-basis: 20%;
+    font-weight: bold;
+    color: black;
+    padding: 0.5rem 0;
+    margin: 0 1rem;
+}
+
+#main-menu a::after {
+    background-color: black;
+}
+
+/* main */
+
+main section {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto 3rem auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+main section#main-illustration {
+    padding: 0;
+}
+
+main section img {
+    max-width: 100%;
+}
+
+main section h1 {
+    text-decoration: underline;
+    display: none;
+}
+
+main #contact .global-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main #contact p {
+    margin-bottom: 1rem;
+}
+
+main #contact span.underline {
+    text-decoration: underline;
+}
+
+main #contact #left-container {
+    padding-right: 3rem;
+    box-sizing: border-box;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: initial;
+}
+
+main #contact img {
+    border-radius: 5px;
+}
+
+
+/*  ---------------------------  connexion -------------------- */
+
+.form {
+    margin: 0 auto 100px;
+    margin-top: 10%;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+.form input,
+.form button {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.form input {
+    background: #f2f2f2;
+    margin: 0 0 15px;
+    box-sizing: border-box;
+}
+
+.form button {
+    text-transform: uppercase;
+    background: #033e67;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #0d4d7a;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #828282;
+    font-size: 1rem;
+}
+
+.form .mdp {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form a {
+    color: #0d4d7a;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.togle {
+    display: none;
+}
+
+/* ----------------- panier --------------------- */
+
+section div {
+    text-align: center;
+}
+
+#texte-panier {
+    margin: 80px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+/* ------------------------- footer ------------------------- */
+
+footer {
+    background-color: #033e67;
+    margin-top: -5px;
+}
+
+footer h3 {
+    text-decoration: underline;
+}
+
+footer p,
+footer h3 {
+    color: azure;
+}
+
+footer div:first-child {
+    display: flex;
+    padding: 2rem 5rem;
+    justify-content: space-between;
+}
+
+footer section:first-child {
+    flex-basis: 45%;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: aqua;
+}
+
+footer a::after {
+    background-color: aqua;
+}
+
+footer section div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer section:nth-of-type(2) {
+    margin: 0 2.5rem;
+}
+
+footer section:nth-of-type(2) img {
+    width: 50px;
+    border-radius: 13px;
+}
+
+footer>p:last-of-type {
+    text-align: center;
+    padding: 3rem 0;
+    position: relative;
+}
+
+footer section:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer section:last-child img {
+    max-width: 200px;
+    width: 100%;
+}
+
+footer>p:last-of-type::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    top: 10%;
+    background-color: #bdbdbd;
+    left: 6%;
+}
+
+
+@media screen and (max-width: 1100px) {
+    footer section:first-child {
+        flex-basis: auto;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    #navbar nav a:first-child {
+        margin-right: 15px;
+    }
+
+    #navbar nav a,
+    #main-menu {
+        display: none;
+    }
+
+
+    #main-menu.overlay,
+    #navbar nav a.overlay {
+        display: flex;      
+        width: 35%;
+        flex-direction: column;
+    }
+
+    #main-menu.overlay {
+        top: 37px;
+        position: fixed;
+    }
+
+
+
+    /* ------------------------------------- burger-menu ----------------------------------- */
+
+    #burger-menu {
+        display: block;
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+        margin-left: 0.7rem;
+        overflow: visible;
+        position: relative;
+        z-index: 2;
+    }
+
+    #burger-menu span,
+    #burger-menu span:before,
+    #burger-menu span:after {
+        background: rgb(42, 3, 55);
+        display: block;
+        height: 4px;
+        opacity: 1;
+        position: absolute;
+        transition: 0.3s ease-in-out;
+    }
+
+    #burger-menu span:before,
+    #burger-menu span:after {
+        content: "";
+    }
+
+    #burger-menu span {
+        right: 0px;
+        top: 13px;
+        width: 27px;
+        transform: translate(50%);
+    }
+
+    #burger-menu span:before {
+        right: 0px;
+        top: -10px;
+        width: 16px;
+    }
+
+    #burger-menu span:after {
+        right: 0px;
+        top: 10px;
+        width: 20px;
+    }
+
+    #burger-menu.close span {
+        transform: rotate(-45deg);
+        top: 13px;
+        width: 27px;
+    }
+
+    #burger-menu.close span:before {
+        top: 0px;
+        transform: rotate(90deg);
+        width: 27px;
+    }
+
+    #burger-menu.close span:after {
+        top: 0px;
+        left: 0;
+        transform: rotate(90deg);
+        opacity: 0;
+        width: 0;
+    }
+
+    main section {
+        padding: 0 3rem;
+    }
+
+    main #contact .global-container {
+        flex-direction: column;
+    }
+
+    main #contact #left-container {
+        padding-right: 0rem;
+    }
+
+    footer div:first-child {
+        flex-direction: column;
+        padding: 2rem 3rem;
+    }
+
+    footer section:nth-of-type(2) {
+        margin: 2.5rem 0;
+    }
+}
