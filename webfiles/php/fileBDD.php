@@ -79,14 +79,16 @@
 
     $connect = new PDO("mysql:host=$host;dbname=$dbName",$user, $pass);
 
-    if($connect){
-        $req = $connect->query("CREATE TABLE IF NOT EXISTS pharmarcie(
-            id INT(25) UNSIGNED NOT NULL AUTO_INCREMENT,
-            Name VARCHAR(50) DEFAULT '/',
-            Description TEXT, 
-            prix FLOAT,
+    try{
+        $req = $connect->query("CREATE TABLE IF NOT EXISTS utilisateurs(
+            id BIGINT(50) UNSIGNED NOT NULL AUTO_INCREMENT,
+            Mail VARCHAR(50) DEFAULT '/',
+            Pass VARCHAR(100),
             PRIMARY KEY(id) 
         )");
     }
+	catch(PDOException $e){
+		echo $e->getMessage();
+	}
 
 ?>

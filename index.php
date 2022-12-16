@@ -59,6 +59,9 @@
                 <span class="underline">Email :</span>
                 <a href="mailto:pharmastmartin02@gmail.com">&nbsp;pharmastmartin02@gmail.com</a>
             </p>
+            <div style="width: 100%"><iframe
+                    src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=rue%20des%20mayennes,%20Soissons,%20France+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
         </div>
     </div>
 </section>
