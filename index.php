@@ -2,7 +2,7 @@
 
 <!-- Mise en page Accueil -->
 <section id="main-illustration">
-    <img src="./src/img/st-martin.webp" alt="avant de la pharmacie">
+    <img src="./src/img/censure.jpeg" alt="avant de la pharmacie">
     <h1>Acceuil</h1>
 </section>
 
@@ -42,7 +42,7 @@
             <p><span class="underline">Adresse :</span>
                 <a
                     href="https://www.google.com/maps/place/37+Rue+Saint-Martin,+02200+Soissons/@49.378624,3.3261683,17z/data=!3m1!4b1!4m5!3m4!1s0x47e85eb627b501d3:0x9bda15fc09c50f83!8m2!3d49.378624!4d3.328357">
-                    &nbsp;37 Rue Saint-Martin, 02200 Soissons
+                     &nbsp;<!--37 Rue Saint-Martin, 02200 Soissons --> 04 sente des jardins, 02210 Oulchy-La-Vile
                 </a>
             </p>
             <p>
@@ -53,11 +53,11 @@
             </p>
             <p>
                 <span class="underline">Téléphone :</span>
-                <a href="tel:0323532556">&nbsp;03 23 53 25 56</a>
+                <a href="tel:0614716964">&nbsp;<!--03 23 53 25 56-->06 14 71 69 64</a>
             </p>
             <p>
                 <span class="underline">Email :</span>
-                <a href="mailto:pharmastmartin02@gmail.com">&nbsp;pharmastmartin02@gmail.com</a>
+                <a href="mailto:dylanvaillant@live.fr">&nbsp;<!--pharmastmartin02@gmail.com-->dylanvaillant@live.fr</a>
             </p>
             <div style="width: 100%"><iframe
                     src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=rue%20des%20mayennes,%20Soissons,%20France+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>

@@ -8,7 +8,7 @@
         <section>
             <h3>&Agrave; propos</h3>
             <p>
-                La Pharmacie SAINT MARTIN, Mme WATTRAINT Estelle et son équipe vous accueillent le lundi de
+                La Pharmacie <!--SAINT MARTIN--> (Nom Pharmacie), Mme WATTRAINT Estelle et son équipe vous accueillent le lundi de
                 13h30&nbsp;&agrave;&nbsp;19h et du mardi au samedi de 9h&nbsp;&agrave;&nbsp;12h30 et de 13h30&nbsp;&agrave;&nbsp;19h Venez découvrir nos offres
                 produits et spécialités (&nbsp;orthopédie, aromathérapie, phytothérapie, dermo-cosmétique et cosmétique , test de peau,maintien à
                 domicile...) et surtout notre accompagnement et nos conseils personnalisés.
@@ -37,7 +37,7 @@
             <a href="#"><img src="./src/img/doctolib.png" alt="site doctolib de la pharmacie"></a>
         </section>
     </div>
-    <p>Copyright &copy; <?= date('Y') ?> Tout droits r&eacute;serv&eacute; &agrave; la pharmacie ST-Martin</p>
+    <p>Copyright &copy; <?= date('Y') ?> Tout droits r&eacute;serv&eacute; &agrave; la personne responsable du site</p>
 
 </footer>
 

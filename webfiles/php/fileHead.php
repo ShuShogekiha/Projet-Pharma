@@ -8,7 +8,7 @@
     <meta name="description" content="site de la pharmacie Saint-Martin">
     <link rel="icon" type="image/x-icon" href="icon.ico">
     <link rel="shortcut icon" href="./img/Logo.webp" type="image/x-icon">
-    <title>Pharmacie ST-Martin</title>
+    <title>Pharmacie</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
